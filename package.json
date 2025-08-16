@@ -1,0 +1,22 @@
+{
+  "name": "node-serverless-hello",
+  "version": "1.0.0",
+  "description": "Simple Node.js serverless project with Hello World endpoint",
+  "main": "src/handlers/hello.js",
+  "scripts": {
+    "start": "serverless offline",
+    "deploy": "serverless deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "serverless",
+    "aws",
+    "lambda"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^13.3.0"
+  }
+}
